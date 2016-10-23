@@ -1,0 +1,26 @@
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+{{#is "home"}}
+<title>{{meta_title}} - {{meta_description}}</title>
+{{else}}
+<title>{{meta_title}}</title>
+{{/is}}
+
+<meta name="description" content="{{meta_description}}">
+
+<link rel="icon" type="image/png" href="{{asset "img/favicon.png"}}">
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="{{asset "css/bootstrap.min.css"}}">
+<link rel="stylesheet" href="{{asset "css/main.css"}}">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+<link rel="stylesheet" href="{{asset "css/prism.css"}}">
+
+<!-- Facebook OpenGraph tags -->
+<meta property="og:title" content="{{@blog.title}}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{@blog.url}}/" />
+<meta property="og:image" content="{{@blog.logo}}" />

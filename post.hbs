@@ -1,0 +1,29 @@
+{{!< default}}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      {{#post}}
+      <article role="main" class="blog-post">
+          {{content}}
+      </article>
+
+      <ul class="pager blog-pager">
+        {{#prev_post}}
+        <li class="previous">
+          <a href="{{url}}" data-toggle="tooltip" data-placement="top" title="{{title}}">&larr; Previous Post</a>
+        </li>
+        {{/prev_post}}
+        {{#next_post}}
+        <li class="next">
+          <a href="{{url}}" data-toggle="tooltip" data-placement="top" title="{{title}}">Next Post &rarr;</a>
+        </li>
+        {{/next_post}}
+      </ul>
+      {{/post}}
+
+      {{!> disqus}}
+
+    </div>
+  </div>
+</div>
