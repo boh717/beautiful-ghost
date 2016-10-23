@@ -7,6 +7,7 @@ Too see a live preview, just visit my [blog](https://runningcodes.net/)!
 ## TODO
 
 - Tag support
+- Comments count disqus
 - Author pages (?)
 
 ## Installation
