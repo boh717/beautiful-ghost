@@ -2,6 +2,8 @@
 
 This is a port of the [Beautiful Jekyll](http://deanattali.com/beautiful-jekyll/) theme by [Dean Attali](http://deanattali.com/aboutme#contact). It supports most of the features of the original theme.
 
+Too see a live preview, just visit my [blog](https://runningcodes.net/)!
+
 ## TODO
 
 - Tag support
