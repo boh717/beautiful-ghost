@@ -21,7 +21,16 @@
 <link rel="stylesheet" href="{{asset "css/prism.css"}}">
 
 <!-- Facebook OpenGraph tags -->
-<meta property="og:title" content="{{@blog.title}}" />
+<meta property="og:title" content="{{meta_title}}" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{@blog.url}}/" />
-<meta property="og:image" content="{{@blog.logo}}" />
+<meta property="og:url" content="{{blog.url}}{{url}}" />
+<meta property="og:image" content="{{image}}" />
+<meta property="fb:profile_id" content="dinchamion" />
+
+<!-- Twitter Card tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="{{blog.url}}{{url}}" />
+<meta name="twitter:creator" content="dinchamion" />
+<meta name="twitter:description" content="{{meta_description}}" />
+<meta name="twitter:title" content="{{meta_title}}" />
+<meta name="twitter:image" content="{{image}}" />
