@@ -3,7 +3,6 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <ul class="list-inline text-center footer-links">
-          <li>
 		      {{#if @blog.twitter }}
           <li>
             <a href="{{twitter_url @blog.twitter}}" title="Twitter">
@@ -24,23 +23,15 @@
             </a>
           </li>
           {{/if}}
-          <li>
-            <a href="https://www.snapchat.com/add/dinchamion" title="Snapchat">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-snapchat fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/dinchamion" title="GitHub">
+{{!--           <li>
+            <a href="https://github.com/<username>" title="GitHub">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
               </span>
             </a>
           </li>
-{{!--     <li>
+          <li>
             <a href="https://linkedin.com/in/<username>" title="LinkedIn">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -57,37 +48,25 @@
             </a>
           </li>
     		  <li> --}}
-          <li>
-            <a href="#" title="Buy me a coffee">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-coffee fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li>
       			<a href="{{@blog.url}}/rss/" title="RSS">
       			  <span class="fa-stack fa-lg">
         				<i class="fa fa-circle fa-stack-2x"></i>
         				<i class="fa fa-rss fa-stack-1x fa-inverse"></i>
       			  </span>
       			</a>
-    		  </li>
+    		  </li>		
+
         </ul>
         <p class="copyright text-muted">
-          &copy; {{date format="YYYY"}}
+    		  &copy; {{date format="YYYY"}}
+    		  
     		  &nbsp;&bull;&nbsp;
     		  <a href="{{@blog.url}}">{{@blog.title}}</a>
-        </p>
-        <p class="theme-by text-muted">
-          "<i>If I find out I have to write today and nothing else, that’s a perfect day.</i>" (Joss Whedon)
   	    </p>
         <!-- Please don't remove this, keep my open source work credited :) -->
     		<p class="theme-by text-muted">
-    		  Theme: modified
-          <a href="https://github.com/boh717/beautiful-ghost">beautiful-ghost</a>
-          based on
-    		  <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>.
+    		  Theme ported by
+    		  <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
     		</p>
       </div>
     </div>
@@ -99,4 +78,4 @@
 <script src="{{asset "js/main.js"}}"></script>
 <script src="{{asset "js/prism.js"}}"></script>
 
-{{> google-analytics}}
+{{!> google-analytics}}
