@@ -12,7 +12,7 @@
 
 <link rel="icon" type="image/png" href="{{asset "img/favicon.png"}}">
 
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 <link rel="stylesheet" href="{{asset "css/bootstrap.min.css"}}">
 <link rel="stylesheet" href="{{asset "css/main.css"}}">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -20,7 +20,15 @@
 <link rel="stylesheet" href="{{asset "css/prism.css"}}">
 
 <!-- Facebook OpenGraph tags -->
-<meta property="og:title" content="{{@blog.title}}" />
+<meta property="og:title" content="{{meta_title}}" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{@blog.url}}/" />
-<meta property="og:image" content="{{@blog.logo}}" />
+<meta property="og:url" content="{{@blog.url}}{{url}}" />
+<meta property="og:image" content="{{image}}" />
+<meta property="og:rich_attachment" content="true" />
+
+<!-- Twitter Card tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="{{@blog.url}}{{url}}" />
+<meta name="twitter:description" content="{{meta_description}}" />
+<meta name="twitter:title" content="{{meta_title}}" />
+<meta name="twitter:image" content="{{image}}" />
