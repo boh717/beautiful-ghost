@@ -23,7 +23,7 @@
 <meta property="og:title" content="{{meta_title}}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{@blog.url}}{{url}}" />
-<meta property="og:image" content="{{image}}" />
+<meta property="og:image" content="{{#if feature_image}}{{image_url feature_image}}{{/if}}" />
 <meta property="og:rich_attachment" content="true" />
 
 <!-- Twitter Card tags -->
@@ -31,4 +31,4 @@
 <meta name="twitter:site" content="{{@blog.url}}{{url}}" />
 <meta name="twitter:description" content="{{meta_description}}" />
 <meta name="twitter:title" content="{{meta_title}}" />
-<meta name="twitter:image" content="{{image}}" />
+<meta name="twitter:image" content="{{#if feature_image}}{{image_url feature_image}}{{/if}}" />
