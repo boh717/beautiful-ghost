@@ -1,14 +1,14 @@
 {
-  "name": "Beautiful Ghost",
+  "name": "beautiful-ghost",
   "description": "Ghost porting of 'Beautiful Jekyll' theme",
   "homepage": "https://github.com/boh717/beautiful-ghost",
-  "version": "1.1",
+  "version": "1.0.0",
   "engines": {
     "ghost": ">=1.0.0"
   },
   "license": "MIT",
   "author": {
     "name": "Alberto Coletta",
-    "email": ""
+    "email": "boh@slacky.it"
   }
 }
