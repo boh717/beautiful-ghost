@@ -2,7 +2,7 @@
   "name": "beautiful-ghost",
   "description": "Ghost porting of 'Beautiful Jekyll' theme",
   "homepage": "https://github.com/boh717/beautiful-ghost",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "engines": {
     "ghost": ">=1.0.0"
   },
@@ -10,5 +10,8 @@
   "author": {
     "name": "Alberto Coletta",
     "email": "boh@slacky.it"
+  },
+  "config": {
+    "posts_per_page": 5
   }
 }
