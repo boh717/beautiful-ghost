@@ -59,7 +59,7 @@ The first one (`{{> header_image}}`) is the default: if you upload a post image 
 
 The second option (`{{!> no_header_image}}`) is a little bit different: you will never see the uploaded post image on your blog, but if you share it, then the image will display, giving better visibility to your tweet/FB post.
 
-The two options are mutually exclusive, only one at a time must be activated.
+**These two options are mutually exclusive, only one at a time must be activated.**
 
 ## License
 
