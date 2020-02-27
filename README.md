@@ -2,8 +2,6 @@
 
 This is a porting of [Beautiful Jekyll](http://deanattali.com/beautiful-jekyll/) theme by [Dean Attali](http://deanattali.com/aboutme#contact). It supports most of the features of the original theme.
 
-Too see a live preview, just visit my [blog](https://runningcodes.net/)!
-
 From version 1.1, beautiful-ghost will support only Ghost >= 1.0. It will work also on older versions, but some feature may be disabled (e.g., favicon).
 
 ## TODO
